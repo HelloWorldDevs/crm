@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'Pt8uwOrp2-jGYvIE7n1RdpsVDG2tjOR3ix4hTauEeSOSfJrLsW6ZE9-di2IEoknSYlenHJio7w';
+$settings['hash_salt'] = '3t2pzxBcopnX_QplReQFOVo3FEBC6vjaPiYobhtn9ZRIhaS_IPQBZb1P_IWNxlti4dOJ2GgcpA';
 
 /**
  * Deployment identifier.
@@ -753,9 +753,9 @@ $settings['file_scan_ignore_directories'] = [
 #   include __DIR__ . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'crm',
-  'username' => 'crm',
-  'password' => 'crm',
+  'database' => 'danlinn_crm',
+  'username' => 'danlinn_crm',
+  'password' => 'JxuS3Tqt',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -763,4 +763,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_9EF2GLpPrevxO3jnFcEJ65R9yZ2OnX6TZrVS9auWproHBy5gV5B3GwbPmpqEa_9vTCIvGbyLxA/sync';
+$config_directories['sync'] = 'sites/default/files/config_elGXOGiyp6B_nlzWbdIVfTuMlb2ao1FqgmE4_9TwUrDyHa9txlG5Og-2ZB8B53k2tHWShAZlSA/sync';
