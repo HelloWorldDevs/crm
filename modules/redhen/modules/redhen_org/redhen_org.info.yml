@@ -1,0 +1,17 @@
+name: RedHen Organizations
+type: module
+description: Defines the base organization entity and features.
+# core: 8.x
+package: RedHen
+configure: entity.redhen_org_type.collection
+dependencies:
+  - redhen
+  - entity
+  - field
+  - views
+
+# Information added by Drupal.org packaging script on 2016-07-15
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'redhen'
+datestamp: 1468619641

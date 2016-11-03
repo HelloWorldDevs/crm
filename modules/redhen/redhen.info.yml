@@ -1,0 +1,11 @@
+name: RedHen
+type: module
+description: 'Defines basic functionality common to all parts of the RedHen CRM.'
+# core: 8.x
+package: RedHen
+
+# Information added by Drupal.org packaging script on 2016-07-15
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'redhen'
+datestamp: 1468619641
